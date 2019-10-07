@@ -1,0 +1,12 @@
+.veg-box {
+    border: solid 2px black; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.veg-box>img {
+   width: 10%; 
+   height: 10%; 
+}
