@@ -1,6 +1,6 @@
-import waste from "../data/waste-info";
-import cart from ;
-import makeCurrency from "../common/utils.js"
+import waste from '../data/waste-info.js';
+import cart from '../data/waste-info.js';
+import makeCurrency from '../common/utils.js';
 
 const makeTd = (content) => {
     const tdElement = document.createElement('td');

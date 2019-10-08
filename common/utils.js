@@ -6,7 +6,7 @@ export const makeCurrency = (number) => number.toLocaleString ('en-US', {
 
 const totalWastePrice = (waste, quantity) => waste.price * quantity;
 
-export const totalCartPrice = (waste, cart) => {
+export default const totalCartPrice = (waste, cart) => {
 
 };
-
+  
