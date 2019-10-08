@@ -20,7 +20,7 @@ function renderWaste(waste){
 
     const button = document.createElement ('button');
     button.textContent = 'Add';
-    button.value = waste.code;
+    button.value = waste.id;
     p.appendChild(button);
 
     li.appendChild(button);

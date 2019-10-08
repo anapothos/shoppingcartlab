@@ -22,7 +22,7 @@ const lostShoe = {
     image: 'shoe.jpg',
     description: 'Discovered on the South Bank, lost and alone.',
     category: 'remains',
-    price: 79.99,
+    price: 199.99,
     cost: 0.00,
 };
 const waste = [

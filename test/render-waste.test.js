@@ -17,7 +17,7 @@ test('test render waste', assert => {
         price: 99.99,
         cost: 0.00,
     };
-    const expected = '<li class="remains" title="Carefully removed for your satisfaction."><h3>Finger Nails/h3><img src="../assets/fingernails.jpg" alt="Finger Nails image"><p class="price>$0.00<button value="fingernails">Add</button></p></li>';
+    const expected = '<li class="remains" title="Carefully removed for your satisfaction."><h3>Finger Nails</h3><img src="../assets/fingernails.jpg" alt="Finger Nailsimage"><p class="price">$99.99<button value="fingernails">Add</button></p></li>';
     //Act 
     // Call the function you're testing and set the result to a const
     const dom = renderWaste(fingernails);
