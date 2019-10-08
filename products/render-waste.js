@@ -14,16 +14,20 @@ function renderWaste(waste){
 
     const p = document.createElement('p');
     p.className = 'price';
+    // p.textContent = waste.price;
+
 
     const usd = '$' + waste.price.toFixed(2);
-    p.textContent = usd;
+    const priceTextNode = document.createTextNode(usd);
+    p.appendChild(priceTextNode);
+
 
     const button = document.createElement ('button');
     button.textContent = 'Add';
     button.value = waste.id;
     p.appendChild(button);
 
-    li.appendChild(button);
+    li.appendChild(p);
 
     return li;
 }
