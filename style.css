@@ -1,12 +1,23 @@
-.veg-box {
-    border: solid 2px black; 
-    border-radius: 5px; 
-    display: flex; 
-    align-items: center; 
-    flex-direction: column; 
-}
+#header-home { 
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    border: ridge 4px rgb(9, 236, 206);
+    border-radius: 4px;
+    padding: 5%;
+    margin: 5%;
 
-.veg-box>img {
-   width: 10%; 
-   height: 10%; 
+}
+#desc-home { 
+    align-content: center; 
+    justify-content: center; 
+    display: flex;
+}
+#trash-link {
+    align-content: center; 
+    justify-content: center; 
+    display: flex;
 }
