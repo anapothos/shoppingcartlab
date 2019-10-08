@@ -1,4 +1,4 @@
-import waste from '../data/waste.js';
+import waste from '../data/waste-info.js';
 import renderWaste from './render-waste.js';
 
 const list = document.getElementById('waste');
