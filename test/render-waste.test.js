@@ -3,9 +3,9 @@
 import renderWaste from '../products/render-waste.js';
 import renderTableRow from '../shopping-cart/render-line-item.js';
 import cart from '../data/waste-info.js';
-// const test = QUnit.test;
+const test = QUnit.test;
 
-// QUnit.module('Render Waste');
+QUnit.module('Render Waste');
 
 test('test render waste', assert => {
     //Arrange
