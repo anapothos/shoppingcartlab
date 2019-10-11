@@ -4,7 +4,7 @@ import renderWaste from './render-waste.js';
 const list = document.getElementById('waste');
 
 for(let i = 0; i < waste.length; i++) {
-    const waste = waste[i];
-    const dom = renderWaste(waste);
+    const wasteString = waste[i];
+    const dom = renderWaste(wasteString);
     list.appendChild(dom);
 }
