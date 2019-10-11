@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css?family=Comic+Sans&display=swap'); */
+header { 
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    align-items: center;
+}
+header nav a {
+text-decoration: none;
+border-radius: 75%;
+border: 2px red solid;
+font-size: 40px;
+padding: 15px 15px;
+}
+ 
+h3 { 
+    font-family:cursive;
+    font-size: 125%;
+}
+h2 { 
+    font-family: monospace;
+}
+
+#waste li { 
+    justify-content: center; 
+    text-align: center;
+    /* display: flex; */
+    list-style: none; 
+    position: relative;
+    background: white;
+    background-clip: border-box;
+
+    
+
+}
+
+#waste li img { 
+    width: 50%;
+
+    
+}
+h4  {
+    background: slategrey;
+    padding: 30px;
+    text-align: center;
+    font-size: 200%;
+    margin: 5px;
+    font-family: monospace;
+}
+
+body { 
+    background-image: url(../assets/635991828025269251-slideshow-6.jpg);
+    background-repeat: repeat;
+    background-size: 77%;
+    
+}

@@ -30,4 +30,14 @@ const waste = [
     starbucksCup,
     fingernails,
 ];
+export const cart = [{
+    id: 'fingernails',
+    quantity: 2
+}, {
+    id: 'starbuckscup',
+    quantity: 5
+}, {
+    id: 'lostshoe',
+    quantity: 1
+}];
 export default waste; 
