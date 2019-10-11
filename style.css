@@ -1,9 +1,62 @@
+* { 
+    box-sizing: border-box;
+}
+#nav-bar {
+    background: rgb(180, 175, 175);
+    height: 40%;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
+    font-family: Tahoma;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px rgb(78, 78, 78) solid;
+    display: flex;
+
+    
+}
+body{ 
+    /* background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-texture_1393-49.jpg?size=626&ext=jpg); */
+}
+section { 
+    display: grid; 
+    background-color: rgb(177, 175, 175);
+    grid-template-rows: 90%;
+    border: 2px black; 
+    padding: 2px; 
+    height: 90vh;
+    margin: 2rem;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+
+}
+.products { 
+    border: 4px black; 
+}
+.box { 
+    display: flex;
+    border: black 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    background: pink;
+    height: 30vh;
+
+
+}
+a {
+    border: 1px gray; 
+    background: white; 
+    justify-content: space-between;
+    padding: 2px;
+}
 #header-home { 
     align-content: center;
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Segoe UI';
+    font-family: Tahoma;
     font-size: 20px;
     border: ridge 4px rgb(9, 236, 206);
     border-radius: 4px;
@@ -20,4 +73,14 @@
     align-content: center; 
     justify-content: center; 
     display: flex;
+}
+footer {
+    border: pink 2px solid; 
+}
+/* #pluto { 
+    height: 90px;
+    width: 90px;
+    align-content: flex-end;
+    align-self: flex-end; */
+
 }
